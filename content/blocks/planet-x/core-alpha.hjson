@@ -1,0 +1,14 @@
+{
+    type: CoreBlock
+    category: effect
+    size: 1
+    itemCapacity: 750
+    health: 600
+    unitType: "x-unit-toul"
+    isFirstTier: true
+    alwaysUnlocked: true
+    buildVisibility: "editorOnly"
+    research: {
+        parent: "x-planet"
+    }
+}

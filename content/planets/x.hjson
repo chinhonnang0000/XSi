@@ -1,0 +1,62 @@
+{
+    generator: PlanetGenerator
+    parent: sun
+    iconColor: c3634a
+    orbitRadius: 10
+    hasAtmosphere: true
+    updateLighting: false
+    atmosphereRadIn: 0.05
+    atmosphereRadOut: 0.07
+    atmosphereColor: ff0000
+    drawOrbit: true
+    accessible: true
+    alwaysUnlocked: true
+    defaultCore: x-core-alpha
+    sectorSeed: 407707
+    startSector: 0
+    sectorSize: 2
+    clearSectorOnLose: true
+    allowSectorInvasion: false
+    radius: 0.4
+    hiddenItems: [
+        "copper"
+        "lead"
+        "scrap"
+        "graphite"
+        "coal"
+        "titanium"
+        "thorium"
+        "silicon"
+        "plastanium"
+        "phase-fabric"
+        "surge-alloy"
+        "spore-pod"
+        "sand"
+        "blast-compound"
+        "pyratite"
+        "metaglass"
+        "beryllium"
+        "oxide"
+        "tungsten"
+        "carbide"
+        "fissile-matter"
+        "dormant-cyst"
+    ]
+    mesh: {
+        type: NoiseMesh
+        seed: 537141
+        divisions: 5
+        radius: 0.35
+        planet: x
+        color1: c3634a
+        color2: ff0000
+        colorOct: 4
+        colorPersistence: 0.5
+        colorScale: 0.5
+        colorTreshold: 0.5
+        octaves: 4
+        persistence: 1
+        scale: 0.75
+        mag: 1.2
+    }
+}

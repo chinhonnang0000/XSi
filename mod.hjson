@@ -1,0 +1,10 @@
+{
+    name: xsi
+    displayName: XSi
+    author: Werryx
+    description: Adds new planet: X
+    version: 1b0
+    minGameVersion: 142
+    dependencies: []
+    hidden: false
+}

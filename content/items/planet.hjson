@@ -1,0 +1,12 @@
+{
+    alwaysUnlocked: true
+    research: {
+        root: true
+        name: X
+        planet: x
+    }
+    hiddenOnPlanets: [
+        serpulo,
+        erekir
+    ]
+}
