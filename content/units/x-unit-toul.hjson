@@ -26,6 +26,6 @@
     coreUnitDock: true
     createScorch: false
     research: {
-        parent: x-planet
+        parent: xsi-x-planet
     }
 }

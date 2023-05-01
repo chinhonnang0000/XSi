@@ -6,7 +6,7 @@
         planet: x
     }
     hiddenOnPlanets: [
-        serpulo,
+        serpulo
         erekir
     ]
 }

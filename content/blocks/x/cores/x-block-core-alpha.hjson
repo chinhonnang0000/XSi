@@ -4,11 +4,11 @@
     size: 1
     itemCapacity: 750
     health: 600
-    unitType: "x-unit-toul"
+    unitType: xsi-x-unit-toul
     isFirstTier: true
     alwaysUnlocked: true
-    buildVisibility: "editorOnly"
+    buildVisibility: editorOnly
     research: {
-        parent: "x-planet"
+        parent: xsi-x-planet
     }
 }

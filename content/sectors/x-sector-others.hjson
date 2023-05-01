@@ -1,0 +1,15 @@
+{
+    sector: 1
+    planet: x
+    research: {
+        parent: x-sector-beginning
+        objectives: [
+            {
+                type: SectorComplete
+                preset: x-sector-beginning
+            }
+        ]
+    }
+    difficulty: 0
+    alwaysUnlocked: false
+}

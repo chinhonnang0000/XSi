@@ -1,0 +1,6 @@
+{
+    alwaysUnlocked: true
+    research: {
+        parent: xsi-x-planet
+    }
+}

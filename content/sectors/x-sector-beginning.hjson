@@ -1,0 +1,9 @@
+{
+    sector: 0
+    planet: x
+    research: {
+        parent: xsi-x-sectors
+    }
+    difficulty: 0
+    alwaysUnlocked: true
+}
