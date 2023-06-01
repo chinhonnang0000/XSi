@@ -1,23 +1,25 @@
 {
+    atmosphereRadIn: 0.05
+    atmosphereRadOut: 0.5
+    atmosphereColor: ff0000
+    allowLaunchSchematics: true
+    allowSectorInvasion: false
     generator: PlanetGenerator
     parent: sun
     iconColor: c3634a
     orbitRadius: 10
     hasAtmosphere: true
     updateLighting: false
-    atmosphereRadIn: 0.05
-    atmosphereRadOut: 0.5
-    atmosphereColor: ff0000
     drawOrbit: true
     accessible: true
     alwaysUnlocked: true
     defaultCore: xsi-x-block-core-alpha
     sectorSeed: 407707
     startSector: 0
-    sectorSize: 1
+    sectorSize: 4
     clearSectorOnLose: true
-    allowSectorInvasion: false
-    radius: 0.4
+   
+    radius: 0.54
     hiddenItems: [
         "copper"
         "lead"
@@ -46,7 +48,7 @@
         type: NoiseMesh
         seed: 537141
         divisions: 5
-        radius: 0.35
+        radius: 0.535
         planet: x
         color1: c3634a
         color2: ff0000
